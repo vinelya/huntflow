@@ -67,3 +67,37 @@ The project was inspired by the need to reduce the manual effort required for fo
 ## Status
 
 Prototype / Hackathon Submission
+
+## Local Setup Instructions
+
+### Prerequisites
+
+* SANS SIFT Workstation
+* Protocol SIFT
+* Python 3.10+
+
+### Installation
+
+1. Download and install SANS SIFT Workstation.
+2. Install Protocol SIFT using the official installation script.
+3. Clone this repository.
+4. Load the provided forensic evidence dataset.
+5. Execute the HuntFlow workflow to generate an incident timeline report.
+
+### Expected Output
+
+The system produces a chronological timeline of forensic events and generates a structured investigation report.
+
+## Evidence Dataset Documentation
+
+This project is designed to operate on the sample forensic datasets provided as part of the Protocol SIFT Hackathon resources.
+
+Supported evidence types include:
+
+* Disk Images
+* Memory Dumps
+* Event Logs
+* Browser Artifacts
+* System Metadata
+
+The project uses these artifacts to reconstruct a timeline of events and identify suspicious activity during an investigation.
